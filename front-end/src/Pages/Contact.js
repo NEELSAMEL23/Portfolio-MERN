@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { toast } from "react-toastify";
 import { message } from "antd";
 import axios from "axios";
 import "../styles/Contact.css";
@@ -14,7 +13,7 @@ const Contact = () => {
     e.preventDefault();
     try {
       if (!name || !email || !msg) {
-        toast.error("PLease Provide all fields");
+        message.error("PLease Provide all fields");
       }
       const res = await axios.post("/api/v1/portfolio/sendEmail", {
         name,
