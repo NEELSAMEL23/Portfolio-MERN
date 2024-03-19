@@ -15,16 +15,24 @@ const Home = () => {
 
           <h2>Hi 👋 I'm a</h2>
           <h1>
-            <Typewriter options={{
-              strings: ["FullStack Developer!", "Mern Stack Developer!", "React native developer!",], autoStart: true, loop: true,
-            }} />
+            <Typewriter
+              options={{
+                strings: [
+                  "FullStack Developer!",
+                  "Mern Stack Developer!",
+                  "React native developer!",
+                ],
+                autoStart: true,
+                loop: true,
+              }}
+            />
           </h1>
 
 
           <div className="home-buttons">
             <a
               className="btn btn-hire"
-              href="https://api.whatsapp.com/send?phone=8999296121"
+              href="https://api.whatsapp.com/send?phone=918999296121"
               rel="noreferrer"
               target="_blank"
             >
