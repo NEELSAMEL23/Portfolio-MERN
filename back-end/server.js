@@ -6,7 +6,7 @@ dotenv.config()
 const app = express()
 app.use(express.json())
 app.use(morgan("dev"))
-
+app.use("/api",require("./routes/contactRoutes"))
 
 const port = process.env.PORT || 8080
 app.listen(port,()=>{
