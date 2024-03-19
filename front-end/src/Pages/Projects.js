@@ -10,7 +10,7 @@ const Projects = () => {
         </h2>
         <hr />
         <p className="pb-3 text-center">
-          My latest project exmplified my commitment to pushing boundaries and
+          My latest project exemplified my commitment to pushing boundaries and
           achieving excellence in Full-Stack.
         </p>
         {/* card design */}
